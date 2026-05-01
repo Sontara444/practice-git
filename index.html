@@ -14,6 +14,25 @@
         <h1>Hello Git!</h1>
         <p>This is a simple file to practice Git and GitHub PRs.</p>
         <button id="actionBtn">Click Me</button>
+        
+        <hr style="margin: 20px 0;">
+        
+        <!-- Dashboard Section -->
+        <div id="dashboardSection">
+            <h2>User Dashboard</h2>
+            <div id="stats" style="display: flex; justify-content: center; gap: 20px;">
+                <div style="border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+                    <h4>Total Commits</h4>
+                    <p id="commitCount">...</p>
+                </div>
+                <div style="border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+                    <h4>Active Branches</h4>
+                    <p id="branchCount">...</p>
+                </div>
+            </div>
+            <br>
+            <button id="loadStatsBtn" style="padding: 5px 15px;">Load Stats</button>
+        </div>
     </div>
     <script src="app.js"></script>
 </body>
